@@ -13,6 +13,7 @@ pymysql = "^1.1.0"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = "^3.3.0"
 python-dotenv = "^1.0.0"
+pydantic = {extras = ["email"], version = "^2.11.5"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
